@@ -15,29 +15,31 @@
 <body>
     <h1>Adoption Form</h1>
     <form action="submit" method="get">
-        <div>
-            <label for="name">Enter your name: </label>
-            <input type="text" name="name" placeholder="name" required />
-        </div>
-        <div>    
-            <label for="email">Enter your email: </label>
-            <input type="email" name="email" id="email" placeholder="email" required />
-        </div>
-        <div>
-            <label for="phone">Enter you phone: </label>
-            <input type="tel" name="phone" id="phone" placeholder="xxx-xxx-xxxx" required />
-        </div>
-        <div>
-            <label for="address">Enter your address: </label>
-            <input type="text" name="address" id="address" placeholder="address" required />
-        </div>
+        <table>
+            <tr>
+                <td>Enter your name:</td>
+                <td><input type="text" name="name" id="name" placeholder="name" required /></td>
+            </tr>
+            <tr>
+                <td>Enter your email:</td>
+                <td><input type="text" name="email" id="email" placeholder="email" required /></td>
+            </tr>
+            <tr>
+                <td>Enter your phone:</td>
+                <td><input type="text" name="phone" id="phone" placeholder="xxx-xxx-xxxx" required /></td>
+            </tr>
+            <tr>
+                <td>Enter your address:</td>
+                <td><input type="text" name="address" id="address" placeholder="address" required /></td>
+            </tr>
+        </table>
         <div>
             <label for="message">Please enter a brief message about why you'd be a good fit for adopting one of our wonderful dogs: </label>
             <br>
-            <textarea name="message" id="message" rows="6" cols="50" required>Enter message...</textarea>
+            <textarea name="message" id="message" rows="6" cols="50" placeholder="Enter message" required></textarea>
         <div>
-            <button type="submit">Submit</button>
-            <button type="reset">Reset Form</button>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset Form" />
         </div>
     </form>
 </body>
