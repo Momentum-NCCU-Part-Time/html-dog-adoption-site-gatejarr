@@ -14,6 +14,31 @@
 </header>
 <body>
     <h1>Adoption Form</h1>
+    <form action="submit" method="get">
+        <div>
+            <label for="name">Enter your name: </label>
+            <input type="text" name="name" placeholder="name" />
+        </div>
+        <div>    
+            <label for="email">Enter your email: </label>
+            <input type="email" name="email" id="email" placeholder="email" />
+        </div>
+        <div>
+            <label for="phone">Enter you phone: </label>
+            <input type="tel" name="phone" id="phone" placeholder="phone" required />
+        </div>
+        <div>
+            <label for="address">Enter your address: </label>
+            <input type="text" name="address" id="address" placeholder="address" required />
+        </div>
+        <div>
+            <label for="message">Please enter a brief message about why you'd be a good fit for adopting one of our wonderful dogs: </label>
+            <br>
+            <textarea name="message" id="message" rows="4" cols="50" required>Enter message...</textarea>
+        <div>
+
+        </div>
+    </form>
 </body>
 <footer>
     <nav>
