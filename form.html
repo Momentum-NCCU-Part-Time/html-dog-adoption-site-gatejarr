@@ -17,15 +17,15 @@
     <form action="submit" method="get">
         <div>
             <label for="name">Enter your name: </label>
-            <input type="text" name="name" placeholder="name" />
+            <input type="text" name="name" placeholder="name" required />
         </div>
         <div>    
             <label for="email">Enter your email: </label>
-            <input type="email" name="email" id="email" placeholder="email" />
+            <input type="email" name="email" id="email" placeholder="email" required />
         </div>
         <div>
             <label for="phone">Enter you phone: </label>
-            <input type="tel" name="phone" id="phone" placeholder="phone" required />
+            <input type="tel" name="phone" id="phone" placeholder="xxx-xxx-xxxx" required />
         </div>
         <div>
             <label for="address">Enter your address: </label>
@@ -34,9 +34,10 @@
         <div>
             <label for="message">Please enter a brief message about why you'd be a good fit for adopting one of our wonderful dogs: </label>
             <br>
-            <textarea name="message" id="message" rows="4" cols="50" required>Enter message...</textarea>
+            <textarea name="message" id="message" rows="6" cols="50" required>Enter message...</textarea>
         <div>
-
+            <button type="submit">Submit</button>
+            <button type="reset">Reset Form</button>
         </div>
     </form>
 </body>
