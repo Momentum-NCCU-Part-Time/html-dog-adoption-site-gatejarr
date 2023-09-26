@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope Valley Shelter - Adoption Form</title>
+</head>
+<header>
+    <h1>Hope Valley Shelter</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="adoption.html">Adopt</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+</header>
+<body>
+    <h1>Adoption Form</h1>
+    <form action="submit" method="get">
+        <table>
+            <tr>
+                <td>Enter your name:</td>
+                <td><input type="text" name="name" id="name" placeholder="name" required /></td>
+            </tr>
+            <tr>
+                <td>Enter your email:</td>
+                <td><input type="text" name="email" id="email" placeholder="email" required /></td>
+            </tr>
+            <tr>
+                <td>Enter your phone:</td>
+                <td><input type="text" name="phone" id="phone" placeholder="xxx-xxx-xxxx" required /></td>
+            </tr>
+            <tr>
+                <td>Enter your address:</td>
+                <td><input type="text" name="address" id="address" placeholder="address" required /></td>
+            </tr>
+        </table>
+        <div>
+            <label for="message">Please enter a brief message about why you'd be a good fit for adopting one of our wonderful dogs: </label>
+            <br>
+            <textarea name="message" id="message" rows="6" cols="50" placeholder="Enter message" required></textarea>
+        <div>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset Form" />
+        </div>
+    </form>
+</body>
+<footer>
+    <nav>
+        <a href="donate.html"><img src="images/donate.jpg" title="Donate" alt="Hands full of money - donate" height="75" onmouseover="height=85" onmouseleave="height=75"></a>
+        <a href="location.html"><img src="images/location.png" title="Location" alt="Map" height="75" onmouseover="height=85" onmouseleave="height=75"></a>
+        <a href="volunteer.html"><img src="images/volunteer.jpg" title="Volunteer" alt="Volunteer surrounded by puppies" height="75" onmouseover="height=85" onmouseleave="height=75"></a>
+    </nav>
+</footer>
+</html>

@@ -1,0 +1,76 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hope Valley Shelter - Volunteer</title>
+</head>
+<header>
+    <h1>Hope Valley Shelter</h1>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="adoption.html">Adopt</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+</header>
+<body>
+    <h1>Play With Puppies!</h1>
+    <h3>Please submit the form below if you are interested in working with us!</h3>
+    <form action="submit" method="get">
+        <table>
+            <tr>
+                <td>Enter your name:</td>
+                <td><input type="text" name="name" id="name" placeholder="name" required /></td>
+            </tr>
+            <tr>
+                <td>Enter your email:</td>
+                <td><input type="text" name="email" id="email" placeholder="email" required /></td>
+            </tr>
+            <tr>
+                <td>Enter your phone:</td>
+                <td><input type="text" name="phone" id="phone" placeholder="xxx-xxx-xxxx" required /></td>
+            </tr>
+            <tr>
+                <td>Enter your address:</td>
+                <td><input type="text" name="address" id="address" placeholder="address" required /></td>
+            </tr>
+        </table>
+        <div>
+            <label for="message">Please enter a brief message about why you want to voluneer, and please explain your experience working with animals.</label>
+            <br>
+            <textarea name="message" id="message" rows="6" cols="50" placeholder="Enter Message" required></textarea>
+        </div>
+        <h3>Please select which days you are available:</h3>
+        <table>
+            <tr>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thursday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+                <th>Sunday</th>
+            </tr>
+            <tr>
+                <td align="center"><input type="checkbox" name="Monday" id="Monday" /></td>
+                <td align="center"><input type="checkbox" name="Tuesday" id="Tuesday" /></td>
+                <td align="center"><input type="checkbox" name="Wednesday" id="Wednesday" /></td>
+                <td align="center"><input type="checkbox" name="Thursday" id="Thursday" /></td>
+                <td align="center"><input type="checkbox" name="Friday" id="Friday" /></td>
+                <td align="center"><input type="checkbox" name="Saturday" id="Saturday" /></td>
+                <td align="center"><input type="checkbox" name="Sunday" id="Sunday" /></td>
+            </tr>
+        </table>
+        <div>
+            <input type="submit" value="Submit" />
+            <input type="reset" value="Reset Form" />
+        </div>
+    </form>
+</body>
+<footer>
+    <nav>
+        <a href="donate.html"><img src="images/donate.jpg" title="Donate" alt="Hands full of money - donate" height="75" onmouseover="height=85" onmouseleave="height=75"></a>
+        <a href="location.html"><img src="images/location.png" title="Location" alt="Map" height="75" onmouseover="height=85" onmouseleave="height=75"></a>
+        <img src="images/volunteer.jpg" alt="Volunteer surrounded by puppies" height="100">
+    </nav>
+</footer>
+</html>
